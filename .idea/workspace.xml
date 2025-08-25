@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="" />
+    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="pytest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,12 +184,25 @@
       <workItem from="1755615810665" duration="1804000" />
       <workItem from="1755963239826" duration="728000" />
       <workItem from="1756024612368" duration="11391000" />
-      <workItem from="1756109194288" duration="1000000" />
+      <workItem from="1756109194288" duration="1378000" />
     </task>
+    <task id="LOCAL-00001" summary="pytest">
+      <option name="closed" value="true" />
+      <created>1756110694569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756110694569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pytest" />
+    <option name="LAST_COMMIT_MESSAGE" value="pytest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

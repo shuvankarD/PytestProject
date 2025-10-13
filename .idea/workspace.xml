@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="pytest" />
+    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="pytest">
+      <change afterPath="$PROJECT_DIR$/playwright/features/orders.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/features/orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/test_GUI_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/test_UI_validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/test_bdd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/test_web_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/utils/web_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_basics.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shuvankarD&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shuvankarD/PytestProject.git&quot;,
+    &quot;accountId&quot;: &quot;12fc29c7-ca6e-44fa-95da-b51fbe1914b8&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -32,12 +54,18 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_GUI_check.test_GUI_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_UI_validation.test_UI_validation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_UI_validation.test_child_page.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_basics.test_basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basics.test_firefox.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_basics.test_locators.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_basics.test_shortcut.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_validation.test_validation.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_validation.test_verification.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_verification.test_third_validation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_web_api.test_web_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_bdd.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_validation.py.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -57,36 +85,52 @@
       <recent name="C:\Users\shuva\PycharmProjects\PytestProject\pytest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_basics.test_locators">
-    <configuration name="Python tests for pytest.test_validation.test_verification" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_web_api.test_web_api">
+    <configuration name="Python tests for test_GUI_check.test_GUI_check" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PytestProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/playwright" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;pytest.test_validation.test_verification&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_GUI_check.test_GUI_check&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for pytest.test_verification.test_third_validation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_UI_validation.test_UI_validation" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PytestProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/playwright" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;pytest.test_verification.test_third_validation&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_UI_validation.test_UI_validation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_UI_validation.test_child_page" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="PytestProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/playwright" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_UI_validation.test_child_page&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -103,6 +147,22 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_basics.test_basics&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_basics.test_firefox" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/playwright" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_basics.test_firefox&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -138,36 +198,51 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_validation.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_web_api.test_web_api" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PytestProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/playwright" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_web_api.test_web_api&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_bdd.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/playwright" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytest/test_validation.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/playwright/test_bdd.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_web_api.test_web_api" />
+        <item itemvalue="Python tests.Python tests in test_bdd.py" />
+        <item itemvalue="Python tests.Python tests for test_basics.test_firefox" />
         <item itemvalue="Python tests.Python tests for test_basics.test_shortcut" />
         <item itemvalue="Python tests.Python tests for test_basics.test_basics" />
-        <item itemvalue="Python tests.Python tests for pytest.test_validation.test_verification" />
-        <item itemvalue="Python tests.Python tests for pytest.test_verification.test_third_validation" />
-        <item itemvalue="Python tests.Python tests in test_validation.py" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
         <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
@@ -184,7 +259,17 @@
       <workItem from="1755615810665" duration="1804000" />
       <workItem from="1755963239826" duration="728000" />
       <workItem from="1756024612368" duration="11391000" />
-      <workItem from="1756109194288" duration="1378000" />
+      <workItem from="1756109194288" duration="8763000" />
+      <workItem from="1756217401511" duration="4326000" />
+      <workItem from="1756409947203" duration="955000" />
+      <workItem from="1756551838789" duration="7424000" />
+      <workItem from="1756566267177" duration="1813000" />
+      <workItem from="1756628600680" duration="5517000" />
+      <workItem from="1756745994250" duration="1000" />
+      <workItem from="1757690113895" duration="2909000" />
+      <workItem from="1757753901276" duration="55000" />
+      <workItem from="1757774109604" duration="6000" />
+      <workItem from="1757836956279" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="pytest">
       <option name="closed" value="true" />
@@ -194,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756110694569</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pytest">
+      <option name="closed" value="true" />
+      <created>1756111224649</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756111224649</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,13 +307,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/playwright/test_basics.py</url>
-          <line>19</line>
+          <line>18</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/playwright/test_basics.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/playwright/test_GUI_check.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/playwright/test_web_api.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PytestProject$.coverage" NAME=" Coverage Results" MODIFIED="1756040732654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/playwright" />
+    <SUITE FILE_PATH="coverage/PytestProject$.coverage" NAME=" Coverage Results" MODIFIED="1756632761197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/playwright" />
   </component>
 </project>

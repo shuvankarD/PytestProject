@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="pytest">
-      <change afterPath="$PROJECT_DIR$/playwright/features/orders.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/features/orders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/test_GUI_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/test_UI_validation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/test_bdd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/test_web_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright/utils/web_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/test_essentials.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/test_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_basics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest/test_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/test_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest/test_verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/test_verification.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

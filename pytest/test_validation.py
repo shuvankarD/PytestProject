@@ -11,7 +11,7 @@ def second_work():
     yield
     print("Tear down the work")
 
-@pytest.mark.smoke
+
 def test_validation(pre_setup):
     print("Hello Pycharm")
 

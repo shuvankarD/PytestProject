@@ -16,7 +16,7 @@ def test_playwright_shortcut(page:Page):
 def test_basics_locators(page:Page):
     page.goto("https://rahulshettyacademy.com/loginpagePractise")
     page.get_by_label("Username:").fill("rahulshettyacademy")
-    page.get_by_label("Password:").fill("learninggg")
+    page.get_by_label("Password:").fill("learning")
     page.get_by_role("combobox").select_option("Teacher")
     page.locator("#terms").check()
     page.get_by_role("link", name="terms and conditions").click()

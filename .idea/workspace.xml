@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="pytest">
+    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="user_journey">
+      <change afterPath="$PROJECT_DIR$/playwright/test_UI_flow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/test_essentials.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_essentials.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playwright/test_user_journey.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_user_journey.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python tests.Python tests for test_GUI_check.test_GUI_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_UI_flow.test_UI_check.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_UI_validation.test_UI_validation.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_UI_validation.test_child_page.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_basics.test_basics.executor&quot;: &quot;Run&quot;,
@@ -79,7 +80,7 @@
       <recent name="C:\Users\shuva\PycharmProjects\PytestProject\pytest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_web_api.test_web_api">
+  <component name="RunManager" selected="Python tests.Python tests for test_UI_flow.test_UI_check">
     <configuration name="Python tests for test_GUI_check.test_GUI_check" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PytestProject" />
       <option name="ENV_FILES" value="" />
@@ -93,6 +94,21 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
       <option name="_new_target" value="&quot;test_GUI_check.test_GUI_check&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_UI_flow.test_UI_check" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PytestProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/playwright" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_UI_flow.test_UI_check&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -125,22 +141,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
       <option name="_new_target" value="&quot;test_UI_validation.test_child_page&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_basics.test_basics" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PytestProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/playwright" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_basics.test_basics&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -226,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_UI_flow.test_UI_check" />
         <item itemvalue="Python tests.Python tests for test_web_api.test_web_api" />
         <item itemvalue="Python tests.Python tests in test_bdd.py" />
         <item itemvalue="Python tests.Python tests for test_basics.test_firefox" />
         <item itemvalue="Python tests.Python tests for test_basics.test_shortcut" />
-        <item itemvalue="Python tests.Python tests for test_basics.test_basics" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760885716226</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="user_journey">
+      <option name="closed" value="true" />
+      <created>1761475285552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761475285552</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +305,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pytest" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest" />
+    <MESSAGE value="user_journey" />
+    <option name="LAST_COMMIT_MESSAGE" value="user_journey" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

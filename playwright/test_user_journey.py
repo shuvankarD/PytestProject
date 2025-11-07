@@ -22,3 +22,19 @@ def test_user_journey(page : Page):
     page.get_by_text("Checkout").click()
     expect(page.locator(".media-body")).to_have_count(2)
 
+#Handle child Windows
+def test_child_window_handle(page: Page):
+     page.goto("https://rahulshettyacademy.com/loginpagePractise")
+
+     with page.expect_popup() as new_page:
+           page.locator(".blinkingText").click()
+           child_window = new_page.value
+           text = child_window.locator(".red").text_content()
+           print(text)
+           parts = text.split("at")
+           email = parts[1].strip().split(" ")[0]
+           print(email)
+
+           assert email == "mentor@rahulshettyacademy.com"
+
+

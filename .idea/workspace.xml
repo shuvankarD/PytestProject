@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="user_journey">
-      <change afterPath="$PROJECT_DIR$/playwright/test_API_flow.py" afterDir="false" />
+    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="Rest_API testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/test_UI_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_UI_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_API_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_API_flow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playwright/utils/web_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/utils/web_base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,38 +45,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test_API_flow.test_API_flow.executor": "Run",
-    "Python tests.Python tests for test_GUI_check.test_GUI_check.executor": "Run",
-    "Python tests.Python tests for test_UI_flow.test_UI_check.executor": "Run",
-    "Python tests.Python tests for test_UI_flow.test_dynamic_UI.executor": "Run",
-    "Python tests.Python tests for test_UI_validation.test_UI_validation.executor": "Run",
-    "Python tests.Python tests for test_UI_validation.test_child_page.executor": "Run",
-    "Python tests.Python tests for test_basics.test_basics.executor": "Run",
-    "Python tests.Python tests for test_basics.test_firefox.executor": "Run",
-    "Python tests.Python tests for test_basics.test_locators.executor": "Run",
-    "Python tests.Python tests for test_basics.test_shortcut.executor": "Run",
-    "Python tests.Python tests for test_validation.test_validation.executor": "Run",
-    "Python tests.Python tests for test_validation.test_verification.executor": "Run",
-    "Python tests.Python tests for test_verification.test_third_validation.executor": "Run",
-    "Python tests.Python tests for test_web_api.test_web_api.executor": "Run",
-    "Python tests.Python tests in test_bdd.py.executor": "Run",
-    "Python tests.Python tests in test_validation.py.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/shuva/PycharmProjects/PytestProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_API_flow.test_API_flow.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_GUI_check.test_GUI_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_UI_flow.test_UI_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_UI_flow.test_dynamic_UI.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_UI_validation.test_UI_validation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_UI_validation.test_child_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basics.test_basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basics.test_firefox.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basics.test_locators.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_basics.test_shortcut.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_validation.test_validation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_validation.test_verification.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_verification.test_third_validation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_web_api.test_web_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_bdd.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_validation.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shuva/PycharmProjects/PytestProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shuva\PycharmProjects\PytestProject\pytest" />
@@ -338,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762503559142</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rest_API testing">
+      <option name="closed" value="true" />
+      <created>1762694010078</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762694010078</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +354,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pytest" />
     <MESSAGE value="user_journey" />
-    <option name="LAST_COMMIT_MESSAGE" value="user_journey" />
+    <MESSAGE value="Rest_API testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest_API testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

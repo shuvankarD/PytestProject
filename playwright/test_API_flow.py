@@ -11,7 +11,7 @@ def test_API_flow(playwright: Playwright):
 
     page.goto("https://rahulshettyacademy.com/client")
 
-    page.get_by_placeholder("email@emaxple.com").fill("shuvo@gmail.com")
+    page.get_by_placeholder("email@example.com").fill("shuvo@gmail.com")
     page.get_by_placeholder("enter your passsword").fill("Hofbeatles123!")
     page.get_by_role("button", name="Login").click()
 

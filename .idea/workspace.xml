@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="Rest_API testing">
-      <change afterPath="$PROJECT_DIR$/playwright/test_network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/test_mock_request.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/test_API_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_API_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_network.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

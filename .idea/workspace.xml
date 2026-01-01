@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="Rest_API testing">
-      <change afterPath="$PROJECT_DIR$/playwright/test_mock_request.py" afterDir="false" />
+    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="Mock_request">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/test_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_network.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766760153800</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Mock_request">
+      <option name="closed" value="true" />
+      <created>1767092657028</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767092657028</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +377,8 @@
     <MESSAGE value="pytest" />
     <MESSAGE value="user_journey" />
     <MESSAGE value="Rest_API testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest_API testing" />
+    <MESSAGE value="Mock_request" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mock_request" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -11,7 +11,7 @@ orders_payload = {
 
 class APIUtils:
 
-    def create_token(self, playwright: Playwright):
+    def get_token(self, playwright: Playwright):
         request_context = playwright.request.new_context(
             base_url="https://rahulshettyacademy.com/client"
         )
@@ -29,7 +29,7 @@ class APIUtils:
         return response_body["token"]
 
     def create_order(self, playwright: Playwright):
-        token = self.create_token(playwright)
+        token = self.get_token(playwright)
 
         request_context = playwright.request.new_context(
             base_url="https://rahulshettyacademy.com/client"

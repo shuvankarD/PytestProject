@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="Mock_request">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_mock_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_session_token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/utils/web_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/utils/web_base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767092657028</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Mock_request">
+      <option name="closed" value="true" />
+      <created>1767292986549</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767292986549</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

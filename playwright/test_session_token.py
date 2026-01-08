@@ -12,7 +12,7 @@ def test_session_token(playwright : Playwright):
     context = browser.new_context()
     page = context.new_page()
 
-    page.add_init_script(f""""localStorage.setItem('token', '{getToken}')""")
+    page.add_init_script(f"""localStorage.setItem('token', '{getToken}')""")
 
     page.goto("https://rahulshettyacademy.com/client")
 

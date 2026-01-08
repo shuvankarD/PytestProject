@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="Mock_request">
+    <list default="true" id="07210dfc-97b1-4672-880a-694fb8ac2bc4" name="Changes" comment="session_token">
+      <change afterPath="$PROJECT_DIR$/playwright/external_data/credentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright/test_framework_build.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/test_mock_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_session_token.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright/utils/web_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/utils/web_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright/test_session_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright/test_session_token.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <recent name="C:\Users\shuva\PycharmProjects\PytestProject\pytest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_API_flow.test_API_flow">
+  <component name="RunManager" selected="Python tests.Python tests for test_framework_build.test_web_api">
     <configuration name="Python tests for test_API_flow.test_API_flow" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="PytestProject" />
       <option name="ENV_FILES" value="" />
@@ -208,7 +209,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_basics.test_shortcut" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_framework_build.test_web_api" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PytestProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,9 +219,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;test_basics.test_shortcut&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_framework_build.test_web_api&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -258,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_framework_build.test_web_api" />
         <item itemvalue="Python tests.Python tests for test_UI_flow.test_UI_check" />
         <item itemvalue="Python tests.Python tests for test_web_api.test_web_api" />
         <item itemvalue="Python tests.Python tests in test_bdd.py" />
         <item itemvalue="Python tests.Python tests for test_basics.test_firefox" />
-        <item itemvalue="Python tests.Python tests for test_basics.test_shortcut" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767292986549</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="session_token">
+      <option name="closed" value="true" />
+      <created>1767437433800</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767437433800</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +396,8 @@
     <MESSAGE value="user_journey" />
     <MESSAGE value="Rest_API testing" />
     <MESSAGE value="Mock_request" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mock_request" />
+    <MESSAGE value="session_token" />
+    <option name="LAST_COMMIT_MESSAGE" value="session_token" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
